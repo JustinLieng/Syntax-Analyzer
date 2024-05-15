@@ -1,0 +1,52 @@
+function temp (someVariable bool){
+  trial = someVariable;
+  z = 68.00;
+}
+
+function trialFunc(){
+  if (z == true){
+    x = 1;
+  } fi
+
+  if (z == false){
+    x = 0;
+  } fi
+
+  if (x != 1){
+    put(x);
+  }
+  else {
+    put(z);
+  }
+  if (x > 1) {
+    someVariable = false;
+  } fi
+  counter = 0;
+  while (someVariable == false){
+    if (x == 10){
+      someVariable = true;
+      counter = counter / 2;
+    } fi
+    zeta = x - 10;
+    counter = counter + 1;
+  } endwhile
+  if (counter >= 5){
+    put(counter);
+    put(counter * counter);
+  } fi
+}
+
+#
+
+int z, x, counter;
+bool someVariable, trial;
+
+#
+
+get (z, someVariable, trial);
+if (z > 10) {
+  put (someVariable + trial);
+  return someVariable;
+} fi
+
+z = z + x;

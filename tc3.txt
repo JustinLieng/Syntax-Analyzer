@@ -1,0 +1,9 @@
+function greeting (phoneNumber int) {
+        phoneNumber = areaCode + phoneNumber;
+        put(phoneNumber);
+        return phoneNumber; }
+#
+int phoneNumber, areaCode;
+#
+get (phoneNumber, areaCode);
+put(greeting(phoneNumber));
